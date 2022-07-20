@@ -16,7 +16,6 @@ namespace EfCore
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
             new EmpolyeeTypeCongration().Configure(modelBuilder.Entity<Employee>());
         }
 
